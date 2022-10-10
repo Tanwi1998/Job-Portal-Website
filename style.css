@@ -1,0 +1,429 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://images.unsplash.com/photo-1600880292203-757bb62b4baf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+     
+}
+.image-size {
+    height: 12vh;
+    width: 150%;
+  
+  }
+.nav-link {
+    color: white !important;
+    margin: 2px;
+}
+
+.nav-link.effect:hover {
+    color:aqua !important;
+}
+.login_btn {
+    background:blue;
+    padding-left: -2px;
+    padding-right: -2px;
+    padding-bottom: 6%;
+    padding-top: 6%;
+}
+
+.extra-style {
+  color: blue !important;
+  font-family:sans-serif;
+  font-weight:900;
+}
+
+.navbar-nav {
+    text-align: right;
+}
+.dropdown-btn {
+
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lavender;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+    
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdown-content a:hover {
+    background-color: white;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.banner {
+    text-align: center;
+    margin-top: -650px;
+    background-size: cover;
+    color: white;
+}
+
+.banner h1 {
+    padding-top: 170px;
+    font-size: 50px;
+    letter-spacing: 6px;
+    font-weight: 600;
+    text-shadow: 0 0 30px rgba(0,0,0,0.5);
+
+}
+
+.search-job {
+    padding: 30px 0;
+    margin: -50px 6% 50px;
+    background-image: linear-gradient(to right,skyblue,lightpink);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 20px !important;
+    margin-top: 330px;
+}
+.form-primary {
+    padding-left: 12px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 100px !important;
+    
+    
+}
+.search-job .form-primary {
+    max-width: 250px;
+    display: inline-flex;
+    margin: 10px 10px;
+    border-radius: 0;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+button {
+    background-color: blue;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 10px !important;
+    border-color:white;
+}
+
+.section {
+    padding-top: 70px;
+    padding-bottom: 100px;
+}
+
+.section h3 {
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    
+    
+}
+
+h3::before {
+    content: "";
+    background-image: linear-gradient(to right,lightblue, lightpink);
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    z-index: -10;
+    margin-top: -15px;
+    border-top-left-radius: 120px;
+    border-bottom-right-radius: 10px;
+}
+
+.img {
+    margin-left: 250px;
+    padding-top: 50px;
+    justify-content: center !important;
+
+}
+.images-below {
+    padding: 50px;
+
+}
+
+.sub-menu  {
+  background-image: linear-gradient(lightblue,lightpink);
+}
+
+.image-primary {
+    margin-top: -35px;
+    
+}
+
+.image {
+  padding-top: 20px;
+  height: 50vh;
+  width: 50%;
+}
+.image3 {
+    padding-bottom: 40px;
+}
+.img1 {
+    padding: 10px;
+}
+.img2 {
+    padding: 25px;
+}
+.img3 {
+    padding: 30px;
+
+}
+
+
+
+#jobs {
+    background: #f8f8fa;
+    padding-top: -15%;
+    padding-bottom: 30px;
+}
+
+
+h6 {
+    padding-top: 20px;
+    padding-right:25px;
+    padding-bottom: 20px;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+.company-details {
+    box-shadow: 0 6px 70px 0 lavender;
+    border-radius: 15px;
+    margin-bottom:10px;
+    margin-right: 100px;
+}
+
+small {
+    background-color: lightgrey;
+    padding: 1px 5px;
+    margin: 0 5px;
+}
+
+.job-update {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    
+}
+
+
+.btn-primary {
+    color: black;
+    float:right;
+    margin-right:20px ;
+}
+
+.page-no {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    
+}
+.page-no .material-symbols-outlined {
+    padding-top: 7px;
+    cursor: pointer;
+}
+.color-1 {
+    background-image: linear-gradient(white,lightpink,lightblue);
+    width: 100%;
+    height: 3vh;
+    border-radius: 15px;
+}
+.page-no .no {
+    padding: 1px 5px;
+    background: lightgrey;
+    margin: 0 15px;
+    font-size: 20px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.topic {
+    box-shadow: 0 5px 15px 0 lightblue;
+    width: 300px;
+    text-align: center;
+    cursor: pointer;  
+}
+
+#category-1 {
+    display: flex;
+    margin: 7%;
+    margin-top: 30px;
+    margin-bottom: -30px;
+ 
+}
+.topic:hover {
+    transform: scale(1.1);
+}
+#category-2 {
+    display: flex;
+    padding-top: 1px;
+    margin: 7%;
+}
+#category-1 .topic {
+    margin-right: 40px;
+    border-radius: 20px;
+    text-align: center;
+ 
+}
+
+#category-2 .topic {
+    margin-right: 40px;
+    border-radius: 20px;
+    text-align: 40px;
+ 
+}
+
+.topic .material-symbols-outlined {
+    margin-right: 30px;
+    margin-top: 20px;
+    background-image: linear-gradient(white,lightpink);
+    border-radius: 20px;
+}
+
+.topic h6 {
+    margin-top: -20px;
+}
+
+.color-2 {
+    background-image: linear-gradient(lightblue,white,lightpink);
+    width: 100%;
+    height: 45vh;
+    margin-top: -30px;
+    text-align: center;
+    justify-content: center;
+ 
+
+
+}
+h5 {
+    padding-top: 40px;
+    word-spacing: 6px;
+    letter-spacing: 6px;
+}
+
+
+.spl-effect {
+    margin-left: 20px;
+}
+
+.hiring {
+    margin-top: -25px;
+    font-size: 13px;
+    justify-content: center;
+    color: gray;
+}
+.title h4 {
+    padding-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.pic {
+    width: 200px;
+    padding-top: 50px;
+    cursor: pointer;
+    padding-left: 7px;
+    padding-right: 7px;
+ 
+}
+
+footer {
+    background-image: linear-gradient(lightcyan,white,lightblue);
+    height: 65vh;
+    margin-top: -16px;
+    display: flex; 
+}
+.options {
+    padding: 6%;
+    cursor: pointer;
+    padding-top: 30px;
+}
+
+.options h4 {
+    padding-bottom: 10px;
+}
+
+.options p:hover {
+    color: blue;
+    text-decoration: underline blue;
+}
+
+
+.options hr {
+    width: 500%;
+    margin-top: 50px;
+}
+
+.jobify {
+    padding-left: 70px;
+}
+
+.connect {
+    padding-top: 15px;
+}
+.connect .fa {
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.viewmore {
+    text-align: center;
+    font-size: 20px;
+    background-image: linear-gradient(lightblue,lightpink);
+    width: 18%;
+    border-radius: 30px;
+    margin-left: 500px;
+    padding: 10px 1%;
+    cursor: pointer;
+    transition: ease-in-out;
+}
+
+.viewmore:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(beige,bisque);
+    color: blue;
+    
+}
+
+
+
+
+  
+  
+  
